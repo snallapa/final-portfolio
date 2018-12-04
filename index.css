@@ -1,0 +1,104 @@
+
+body {
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+    padding: 0 12px;
+    animation: fade-in 1s ease-in .5s forwards; 
+    opacity: 0;
+}
+a {
+    color: black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0 12px;
+    text-decoration: none;
+}
+.header {
+    font-size: 18px;
+}
+.interview {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 56px;
+    animation: fade-in 1s ease-in 1.5s forwards; 
+    opacity: 0;
+    height: 100%;
+}
+
+#svg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+circle {
+    opacity: 0;
+}
+.section_header {
+    font-size: 36px;
+    font-style: normal;
+}
+.text {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.section {
+    margin: 16px 0;
+}
+
+.section_2 {
+    margin-top: 48px;
+}
+
+.interview-text {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 12px;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(8px)
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.graphic_narrative {
+    width: 50%;
+    margin-bottom: 36px;
+}
+
+.photo_essay {
+    width: 80%;
+    margin-bottom: 36px;
+}
+
+.subtext {
+    margin-bottom: 36px;
+}
